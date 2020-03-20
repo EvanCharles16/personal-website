@@ -134,6 +134,27 @@ body {
     height: 200px;
 }
 
+.column1{
+    float: left;
+    width: 30%;
+    padding: 10px;
+    height: 200px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+.media{
+    margin-bottom: 10px;
+    box-shadow: 0 4x 4x lightgray;
+    color:rgb(20, 109, 211);
+}
+
+.media button{
+    border-radius: 50%;
+}
+
+
 .row:after {
     display: table;
     clear: both;
@@ -142,6 +163,7 @@ body {
 #section-contact {
     text-align: center;
     background-color: lightgray;
+    height: 100%;
 }
 
 #section-contact h1{
@@ -150,15 +172,18 @@ body {
 
 .box-model,
 .form {
+    position: relative;
     background-color: lightgrey;
     width: 300px;
     border: 2px solid black;
     padding: 50px;
     margin: 20px;
+    margin-top: 20%;
     margin-left: 290px;
 }
 
 .form {
-    padding: 150px;
+    font-size: 22px;
+    padding: 100px;
 }
 
