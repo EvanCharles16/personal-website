@@ -130,3 +130,135 @@ body {
     margin: 20px;
     margin-left: 290px;
   }
+  html{
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Lato", sans-serif;
+}
+
+.sidenav {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.sidenav img{
+    margin-left: 10px;
+    width: 85%; 
+    border-radius: 10%;
+}
+
+
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.main {
+    margin-left: 150px;
+    font-size: 28px;
+
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+
+    .sidenav a {
+        font-size: 18px;
+    }
+}
+
+.header {
+    width: 100%;
+    height: 115vh;
+    background-image: url(../img/sports/2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    opacity: 0.8;
+}
+
+.header img {
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#section-port{
+    background-color: lightgray;
+    
+}
+
+#section-port h1{
+    text-align: center;
+    margin-top: 0;
+    padding-top: 40px;
+}
+
+.box img{
+    max-width: 30%;
+    max-height: 20%;
+}
+
+.imgBox{
+    margin-left: 190px;
+}
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto ;
+
+  }
+  .grid-item{
+    background-color: rgba(255, 255, 255, 0.8);
+  }
+
+  #section-about{
+      text-align: center;
+      margin-bottom: 70px;
+      margin-top: 70px;
+  }
+
+  .column{
+      float: left;
+      width: 30%;
+      padding: 10px;
+      height: 200px;
+  }
+
+  .row:after{
+      display: table;
+      clear: both;
+  }
+
+  #section-contact{
+      text-align: center;
+      background-color: lightgray;
+  }
+
+  .box-model, .form{
+    background-color: lightgrey;
+    width: 300px;
+    border: 2px solid black;
+    padding: 50px;
+    margin: 20px;
+    margin-left: 290px;
+  }
