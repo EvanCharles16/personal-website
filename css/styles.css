@@ -159,6 +159,10 @@ body {
     background-color: blue ;
 }
 
+.sign{
+    margin-right: 40px;
+}
+
 .row:after {
     display: table;
     clear: both;
