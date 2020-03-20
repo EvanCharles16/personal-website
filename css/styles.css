@@ -88,8 +88,6 @@ body {
 
 #section-port h1 {
     text-align: center;
-    margin-top: 0;
-    padding-top: 40px;
     font-family: 'Courgette', cursive;
 }
 
@@ -120,7 +118,7 @@ body {
 #section-about {
     text-align: center;
     margin-bottom: 70px;
-    margin-top: 70px;
+    margin-top: 20px;
 }
 
 #section-about h1{
@@ -172,10 +170,16 @@ body {
     text-align: center;
     background-color: lightgray;
     height: 100%;
+    width: 100%;
 }
 
 #section-contact h1{
     font-family: 'Courgette', cursive;
+}
+
+.grid-item-contact2{
+    margin-left:270px; 
+    bottom: 30%;
 }
 
 .box-model,
@@ -186,7 +190,7 @@ body {
     border: 2px solid black;
     padding: 50px;
     margin: 20px;
-    margin-top: 20%;
+    margin-top: 22%;
     margin-left: 290px;
 }
 
@@ -195,3 +199,6 @@ body {
     padding: 100px;
 }
 
+hr{
+    border: 2px solid black;"
+}
