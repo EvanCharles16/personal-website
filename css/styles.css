@@ -154,6 +154,10 @@ body {
     border-radius: 50%;
 }
 
+.media button:hover{
+    color: white;
+    background-color: blue ;
+}
 
 .row:after {
     display: table;
